@@ -32,7 +32,8 @@ public class ItemBuilder {
     public Item build() {
         return new Item(name, sellIn, quality);
     }
-    public Item build(String name,int sellIn,int quality) {
+
+    public Item build(String name, int sellIn, int quality) {
         return new Item(name, sellIn, quality);
     }
 }
