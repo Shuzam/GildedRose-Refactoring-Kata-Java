@@ -12,5 +12,6 @@ public class AgedBrie implements ItemInterface{
                 item.quality++;
             }
         }
+        if (item.quality < 0) {item.quality = 0;}
     }
 }
